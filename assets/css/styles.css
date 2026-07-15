@@ -189,6 +189,8 @@
 .field textarea { min-height:140px; resize:vertical; }
 .form-note,.form-status { color:var(--fg-mute); font-size:var(--text-sm); }
 .form-status { color:var(--lime); min-height:1.5em; }
+.form-email-link { color:inherit; text-decoration:underline; text-underline-offset:.18em; font-weight:600; }
+.form-email-link:hover { color:var(--fg); }
 .vcc-footer-note { max-width:480px; color:var(--fg-mute); }
 @media (max-width:900px) {
   .vcc-hero-grid,.vcc-split,.inquiry-wrap { grid-template-columns:1fr; }
